@@ -1,0 +1,16 @@
+Changes
+lib/HMA/Perl/Dist/Template.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml
+README
+t/00-load.t
+t/01-constructor.t
+t/02-methods.t
+xt/cpan-meta.t
+xt/hasversion.t
+xt/minimumversion.t
+xt/pod-coverage.t
+xt/pod.t
+xt/synopsis.t

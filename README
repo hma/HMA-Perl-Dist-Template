@@ -1,0 +1,28 @@
+HMA::Perl::Dist::Template
+=========================
+
+This is HMA's personal template for creating object-oriented Perl
+modules/distributions the way he likes.
+
+Perhaps I won't need it anymore when I get to learn how to use
+Dist::Zilla (http://dzil.org/) or similar advanced tools.
+
+
+DISCLAIMER
+
+DO NOT INSTALL this module. It's just a template, really.
+
+
+COPYRIGHT AND LICENSE
+
+Copyright (c) 2010 Henning Manske. All rights reserved.
+
+This module is free software. You can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/
+
+This module is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

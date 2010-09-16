@@ -1,0 +1,55 @@
+DISCLAIMER
+
+This is the UNSTABLE, possibly untested, DEVELOPER RELEASE of
+HMA-Perl-Dist-Template to GitHub.
+
+This module has not yet been released to CPAN.
+
+END OF DISCLAIMER
+
+-8<-
+
+
+HMA::Perl::Dist::Template
+=========================
+
+SYNOPSIS
+
+    use HMA::Perl::Dist::Template;
+
+    my $obj = HMA::Perl::Dist::Template->new( 'something' );
+
+    printf "single_param: %s\n", $obj->method;  # something
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+DOCUMENTATION
+
+After installing, you can find documentation for this module with
+the perldoc command:
+
+    perldoc HMA::Perl::Dist::Template
+
+
+COPYRIGHT AND LICENSE
+
+Copyright (c) 2010 Henning Manske. All rights reserved.
+
+This module is free software. You can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/
+
+This module is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
