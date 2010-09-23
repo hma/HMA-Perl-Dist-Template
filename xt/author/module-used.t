@@ -1,6 +1,6 @@
 #!perl
 #
-#  xt/author/module-used.t 0.01 hma Sep 16, 2010
+#  xt/author/module-used.t 0.02 hma Sep 23, 2010
 #
 #  Test required module is really used and vice versa bitween lib/t and META.yml
 #  RELEASE_TESTING only
@@ -37,7 +37,7 @@ while (my ($module, $version) = each %MODULES) {
 
 my $used = Test::Module::Used->new;
 
-# the hacks for Kwalitee in xt-pod.t and xt-pod-coverage.t
+# the hacks for Kwalitee in xt/pod.t and xt/pod-coverage.t
 # require these modules directly
 
 $used->push_exclude_in_testdir( 'Test::Pod', 'Test::Pod::Coverage' );
