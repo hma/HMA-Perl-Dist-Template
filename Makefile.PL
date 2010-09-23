@@ -1,5 +1,5 @@
 #
-#  Makefile.PL template 0.01 hma Sep 16, 2010
+#  Makefile.PL template 0.02 hma Sep 23, 2010
 #
 
 use 5.006;
@@ -23,6 +23,9 @@ my $NAME = 'HMA::Perl::Dist::Template';
 (my $path = $NAME) =~ s|::|/|g;
 
 my $META = {
+  no_index => {
+    directory  => 'xt',
+  },
   resources => {
    #homepage   => "http://search.cpan.org/dist/$dist/",
    #bugtracker => "http://rt.cpan.org/Public/Dist/Display.html?Name=$dist",
