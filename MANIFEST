@@ -2,9 +2,9 @@ Changes
 lib/HMA/Perl/Dist/Template.pm
 Makefile.PL
 MANIFEST
-MANIFEST.SKIP
 META.yml
 README
+README.template
 t/00-load.t
 t/01-constructor.t
 t/02-methods.t
