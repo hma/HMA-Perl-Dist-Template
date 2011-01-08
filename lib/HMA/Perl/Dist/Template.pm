@@ -7,8 +7,6 @@ use warnings;
 
 our $VERSION = '0.00_01';
 
-$VERSION = eval $VERSION;
-
 
 
 #
@@ -35,7 +33,7 @@ sub method {
 
 
 
-1;
+$VERSION = eval $VERSION;
 
 __END__
 
@@ -94,7 +92,7 @@ Henning Manske <hma@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2010 Henning Manske. All rights reserved.
+Copyright (c) 2011 Henning Manske. All rights reserved.
 
 This module is free software. You can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
